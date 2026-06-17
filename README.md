@@ -234,12 +234,21 @@ The repository also includes a GitHub Actions workflow at `.github/workflows/ci.
 
 ## Screenshots
 
-Add portfolio screenshots here after running the dashboard:
+### Executive Overview
 
-- Executive overview
-- Single prediction result
-- Batch prediction output
-- Model performance page
+![Executive Overview](docs/screenshots/dashboard-overview.png)
+
+### Single Prediction
+
+![Single Prediction](docs/screenshots/single-prediction.png)
+
+### Model Performance
+
+![Model Performance](docs/screenshots/model-performance.png)
+
+### API Playground
+
+![API Playground](docs/screenshots/api-playground.png)
 
 ## Future Improvements
 
