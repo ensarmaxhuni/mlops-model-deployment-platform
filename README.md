@@ -1,6 +1,8 @@
 # MLOps Model Deployment Platform
 
-Live demo: _Add Render/Railway and Streamlit URLs here after deployment._
+Live dashboard: https://mlops-model-deployment-platform-by-ensarmaxhuni.streamlit.app/
+
+Live API: https://mlops-churn-api-myvz.onrender.com
 
 ## Project Overview
 
