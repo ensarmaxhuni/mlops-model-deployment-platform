@@ -61,6 +61,24 @@ The workflow:
 
 ## Render Deployment Notes
 
+The repository includes `render.yaml` for Render Blueprint deployment. This is the simplest path because it forces Render to use the Python runtime even though the repository also includes a Dockerfile for local/container deployment.
+
+Blueprint deployment:
+
+1. Push the latest repository changes to GitHub.
+2. In Render, choose **New +** and then **Blueprint**.
+3. Select this GitHub repository.
+4. Confirm the service settings from `render.yaml`.
+5. Deploy.
+
+The Blueprint creates a Python web service with:
+
+- Build command: `pip install -r requirements.txt && python model/train_model.py`
+- Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
+- Health check path: `/health`
+
+Manual Web Service deployment:
+
 Deploy the FastAPI backend as a Web Service:
 
 - Build command: `pip install -r requirements.txt && python model/train_model.py`
