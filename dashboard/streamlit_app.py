@@ -20,7 +20,26 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 MODEL_INFO_PATH = PROJECT_ROOT / "model" / "model_info.json"
 METRICS_PATH = PROJECT_ROOT / "model" / "metrics.json"
 SAMPLE_DATA_PATH = PROJECT_ROOT / "data" / "sample_customers.csv"
-API_URL = os.getenv("API_URL", "http://localhost:8000").rstrip("/")
+
+
+def resolve_api_url() -> str:
+    """Resolve the API URL from environment variables, Streamlit secrets, or localhost."""
+
+    env_url = os.getenv("API_URL")
+    if env_url:
+        return env_url.rstrip("/")
+
+    try:
+        secret_url = st.secrets.get("API_URL")
+        if secret_url:
+            return str(secret_url).rstrip("/")
+    except Exception:
+        pass
+
+    return "http://localhost:8000"
+
+
+API_URL = resolve_api_url()
 
 FEATURE_COLUMNS = [
     "tenure_months",
