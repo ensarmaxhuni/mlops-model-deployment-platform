@@ -1,0 +1,46 @@
+{
+  "model_name": "Customer Churn Gradient Boosting Classifier",
+  "version": "1.0.0",
+  "algorithm": "GradientBoostingClassifier",
+  "training_date": "2026-06-16T02:43:20.435338+00:00",
+  "features": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "contract_type",
+    "payment_method",
+    "support_tickets",
+    "usage_frequency",
+    "satisfaction_score",
+    "product_plan",
+    "number_of_services"
+  ],
+  "numeric_features": [
+    "tenure_months",
+    "monthly_charges",
+    "total_charges",
+    "support_tickets",
+    "usage_frequency",
+    "satisfaction_score",
+    "number_of_services"
+  ],
+  "categorical_features": [
+    "contract_type",
+    "payment_method",
+    "product_plan"
+  ],
+  "target": "churned",
+  "decision_threshold": 0.3109,
+  "dataset_size": 5000,
+  "training_rows": 4000,
+  "test_rows": 1000,
+  "positive_class_rate": 0.2794,
+  "metrics": {
+    "accuracy": 0.731,
+    "precision": 0.5136,
+    "recall": 0.6774,
+    "f1_score": 0.5842,
+    "roc_auc": 0.7737
+  },
+  "author": "Ensar Maxhuni"
+}

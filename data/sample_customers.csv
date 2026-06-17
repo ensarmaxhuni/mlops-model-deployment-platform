@@ -1,0 +1,51 @@
+customer_id,tenure_months,monthly_charges,total_charges,contract_type,payment_method,support_tickets,usage_frequency,satisfaction_score,product_plan,number_of_services
+CUST-10000,72,126.57,9214.64,Month-to-month,Bank transfer,4,5,10.0,Premium,7
+CUST-10001,62,94.94,5891.24,One year,Bank transfer,1,22,5.9,Standard,5
+CUST-10002,35,112.3,3962.09,One year,Electronic check,3,13,7.4,Premium,8
+CUST-10003,25,56.04,1384.59,Month-to-month,Electronic check,6,17,8.0,Standard,3
+CUST-10004,34,65.04,2217.63,Month-to-month,Electronic check,3,17,6.8,Basic,1
+CUST-10005,70,148.76,10407.97,Month-to-month,Electronic check,3,21,4.3,Enterprise,11
+CUST-10006,16,112.39,1844.02,One year,Credit card,0,10,7.4,Premium,5
+CUST-10007,50,104.66,5441.8,One year,Mailed check,3,15,3.3,Premium,5
+CUST-10008,66,36.4,2257.77,One year,Electronic check,1,18,6.4,Basic,3
+CUST-10009,55,81.94,4643.78,Month-to-month,Electronic check,4,29,8.8,Standard,3
+CUST-10010,63,75.18,4692.15,Month-to-month,Bank transfer,5,11,3.5,Standard,4
+CUST-10011,69,168.67,11790.59,One year,Credit card,2,26,5.3,Enterprise,9
+CUST-10012,5,61.4,266.99,Month-to-month,Electronic check,0,16,10.0,Standard,5
+CUST-10013,18,105.74,1952.85,One year,Electronic check,3,10,6.1,Premium,7
+CUST-10014,11,62.0,662.94,Month-to-month,Mailed check,1,22,5.4,Standard,3
+CUST-10015,41,39.41,1408.14,Month-to-month,Electronic check,4,27,6.7,Basic,1
+CUST-10016,30,70.46,2322.48,Month-to-month,Credit card,0,19,6.4,Standard,2
+CUST-10017,3,65.98,84.81,Month-to-month,Bank transfer,2,11,2.2,Basic,1
+CUST-10018,41,104.63,4299.9,One year,Electronic check,3,18,4.1,Premium,7
+CUST-10019,8,44.37,228.67,Month-to-month,Bank transfer,1,18,10.0,Standard,5
+CUST-10020,30,126.14,3623.76,Two year,Electronic check,3,30,7.3,Premium,4
+CUST-10021,27,77.84,2077.09,Two year,Electronic check,1,21,9.7,Standard,3
+CUST-10022,65,160.3,10348.28,Two year,Electronic check,1,15,5.6,Enterprise,7
+CUST-10023,50,102.32,4975.74,One year,Mailed check,1,25,6.8,Premium,8
+CUST-10024,45,95.69,4301.8,One year,Electronic check,0,22,6.9,Premium,7
+CUST-10025,60,67.19,3853.57,One year,Electronic check,1,23,6.0,Basic,1
+CUST-10026,13,72.67,959.77,Month-to-month,Mailed check,3,18,6.7,Standard,4
+CUST-10027,19,20.0,364.72,Month-to-month,Electronic check,2,22,4.8,Basic,3
+CUST-10028,55,46.26,2246.65,One year,Bank transfer,1,19,8.9,Basic,1
+CUST-10029,54,87.68,4671.95,Month-to-month,Credit card,1,14,7.7,Standard,4
+CUST-10030,2,110.03,276.27,Month-to-month,Credit card,4,15,5.8,Premium,6
+CUST-10031,17,150.28,2427.13,Two year,Bank transfer,3,19,6.9,Enterprise,7
+CUST-10032,17,29.12,556.46,Month-to-month,Bank transfer,0,19,6.7,Basic,3
+CUST-10033,1,60.07,111.99,One year,Electronic check,1,17,4.1,Standard,2
+CUST-10034,48,91.78,4283.31,One year,Mailed check,2,13,5.0,Standard,3
+CUST-10035,4,41.07,162.81,Month-to-month,Mailed check,4,13,5.8,Basic,3
+CUST-10036,61,20.18,1329.98,Two year,Bank transfer,2,15,6.4,Basic,1
+CUST-10037,43,76.99,3205.4,Month-to-month,Credit card,3,2,7.4,Standard,3
+CUST-10038,55,43.83,2385.95,Two year,Credit card,3,22,7.6,Basic,3
+CUST-10039,36,66.16,2519.79,One year,Credit card,2,18,5.7,Standard,2
+CUST-10040,70,58.73,4008.18,Month-to-month,Electronic check,0,13,5.6,Standard,4
+CUST-10041,20,94.17,1938.5,Month-to-month,Credit card,1,20,8.2,Premium,4
+CUST-10042,41,86.13,3401.83,Month-to-month,Credit card,1,13,7.2,Standard,2
+CUST-10043,1,45.22,25.9,Month-to-month,Credit card,5,9,4.8,Basic,2
+CUST-10044,60,114.22,6906.81,Month-to-month,Electronic check,3,17,4.5,Premium,4
+CUST-10045,41,111.18,4269.84,Two year,Credit card,0,27,6.4,Premium,6
+CUST-10046,13,76.26,927.26,Month-to-month,Credit card,6,14,6.2,Standard,3
+CUST-10047,59,35.91,2170.21,Two year,Credit card,0,12,10.0,Basic,2
+CUST-10048,72,69.32,5018.14,Month-to-month,Mailed check,4,11,5.7,Standard,5
+CUST-10049,5,57.14,223.01,Two year,Bank transfer,4,20,5.1,Basic,3
